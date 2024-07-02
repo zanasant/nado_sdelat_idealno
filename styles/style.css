@@ -31,7 +31,7 @@ body {
   justify-items: center;
   min-width: 800px;
   height: 100%;
-  font-family: Raleway, sans-serif;
+  margin: 0px;
 }
 
 body::before {
@@ -57,6 +57,7 @@ body::before {
   letter-spacing: 4px;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif; 
 }
 
 .page__heading::after {
@@ -70,8 +71,11 @@ body::before {
 .page__heading:hover::before {
   content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
   position: absolute;
-  top: 180px;
+  top: 182px;
   right: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 742px;
   height: 142px;
   border: 2px solid currentColor;
@@ -79,7 +83,6 @@ body::before {
   padding: 36px 44px;
   box-shadow: 0 14px currentColor;
   color: #000;
-  font-family: 'Raleway', sans-serif; 
   font-weight: 400;
   font-size: 35px;
   line-height: 1;
