@@ -1,9 +1,8 @@
-
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-} 
+  box-sizing: border-box;
+}
 
 h1,
 h2,
@@ -20,7 +19,6 @@ blockquote {
   padding: 0;
 }
 
-
 html {
   height: 100%;
 }
@@ -35,7 +33,7 @@ body {
 }
 
 body::before {
-  content: '';
+  content: "";
   z-index: 1;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -57,11 +55,11 @@ body::before {
   letter-spacing: 4px;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
 }
 
 .page__heading::after {
-  content: '*';
+  content: "*";
 }
 
 .page__heading:hover {
@@ -69,7 +67,7 @@ body::before {
 }
 
 .page__heading:hover::before {
-  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   position: absolute;
   top: 182px;
   right: 22px;
@@ -83,6 +81,7 @@ body::before {
   padding: 36px 44px;
   box-shadow: 0 14px currentColor;
   color: #000;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 35px;
   line-height: 1;
